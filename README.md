@@ -3,6 +3,7 @@
 Course: AIInAction - VinUni
 Buổi: Day 21 - CI/CD cho AI Systems
 
+# Link file báo cáo và Ảnh ở thư mục `submission`
 
 ---
 
