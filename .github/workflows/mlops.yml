@@ -37,7 +37,6 @@ jobs:
           python-version: "3.10"
       - name: Install dependencies
         run: pip install -r requirements.txt dvc dvc-gs pandas scikit-learn pyyaml google-cloud-storage mlflow python-dotenv
-
       - name: Authenticate to Google Cloud
         run: |
           echo "${{ secrets.CLOUD_CREDENTIALS }}" | base64 -d > sa-key.json
